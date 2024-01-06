@@ -1,0 +1,52 @@
+#parent{
+    width: 50%;
+    height: 400px;
+    margin: auto;
+    padding: 15px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+#contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#contents div{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.display{
+    flex-direction: column; 
+}
+.display :nth-child(1){
+    padding: 10px;
+    font-size: large;
+    border-style: none none none solid;
+    border-width: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.display :nth-child(2){
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 1.5em;
+    width: 50%;
+    border-style: none none none solid;
+    border-width: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.controls{
+    justify-content: flex-start;
+}
+
+.numbers{
+    width: 75%;
+    flex-wrap: wrap;
+}
